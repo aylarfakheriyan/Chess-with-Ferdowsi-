@@ -1,51 +1,8 @@
-```xml
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-
     <loc>https://aylarfakheriyan.github.io/Chess-with-Ferdowsi-/</loc>
-
-    <image:image>
-      <image:loc>https://aylarfakheriyan.github.io/Chess-with-Ferdowsi-/chess-with-ferdowsi-header-by-aylar-fakherian.png</image:loc>
-      <image:title>Chess with Ferdowsi — Embodied Interaction through Artefacts by Aylar Fakherian</image:title>
-      <image:caption>Chess with Ferdowsi — Embodied Interaction through Artefacts by Aylar Fakherian</image:caption>
-    </image:image>
-
-    <image:image>
-      <image:loc>https://aylarfakheriyan.github.io/Chess-with-Ferdowsi-/01-greed-performance-chess-with-ferdowsi-aylar-fakherian.jpg</image:loc>
-      <image:title>Greed — Chess with Ferdowsi by Aylar Fakherian</image:title>
-      <image:caption>Greed ceramic performance mask from Chess with Ferdowsi by Aylar Fakherian</image:caption>
-    </image:image>
-
-    <image:image>
-      <image:loc>https://aylarfakheriyan.github.io/Chess-with-Ferdowsi-/02-love-performance-chess-with-ferdowsi-aylar-fakherian.jpg</image:loc>
-      <image:title>Love — Chess with Ferdowsi by Aylar Fakherian</image:title>
-      <image:caption>Love ceramic performance mask from Chess with Ferdowsi by Aylar Fakherian</image:caption>
-    </image:image>
-
-    <image:image>
-      <image:loc>https://aylarfakheriyan.github.io/Chess-with-Ferdowsi-/03-deception-performance-chess-with-ferdowsi-aylar-fakherian.jpg</image:loc>
-      <image:title>Deception — Chess with Ferdowsi by Aylar Fakherian</image:title>
-      <image:caption>Deception ceramic performance mask from Chess with Ferdowsi by Aylar Fakherian</image:caption>
-    </image:image>
-
-    <image:image>
-      <image:loc>https://aylarfakheriyan.github.io/Chess-with-Ferdowsi-/04-div-sepid-performance-chess-with-ferdowsi-aylar-fakherian.jpg</image:loc>
-      <image:title>Div-e Sepid — Chess with Ferdowsi by Aylar Fakherian</image:title>
-      <image:caption>Div-e Sepid ceramic performance mask from Chess with Ferdowsi by Aylar Fakherian</image:caption>
-    </image:image>
-
-    <image:image>
-      <image:loc>https://aylarfakheriyan.github.io/Chess-with-Ferdowsi-/05-belligerent-performance-chess-with-ferdowsi-aylar-fakherian.jpg</image:loc>
-      <image:title>Belligerent — Chess with Ferdowsi by Aylar Fakherian</image:title>
-      <image:caption>Belligerent ceramic performance mask from Chess with Ferdowsi by Aylar Fakherian</image:caption>
-    </image:image>
-
   </url>
 
 </urlset>
-```
