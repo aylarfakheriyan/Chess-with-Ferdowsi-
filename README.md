@@ -112,23 +112,23 @@ These performances formed part of the physical artefact study, exploring how con
 
 ### Greed
 
-![Greed performance](assets/01-greed-performance.jpg)
+![Greed performance](01-greed-performance.jpg)
 
 ### Love
 
-![Love performance](assets/02-love-performance.jpg)
+![Love performance](02-love-performance.jpg)
 
 ### Deception
 
-![Deception performance](assets/03-deception-performance.jpg)
+![Deception performance](03-deception-performance.jpg)
 
 ### Div-e Sepid
 
-![Div-e Sepid performance](assets/04-div-sepid-performance.jpg)
+![Div-e Sepid performance](04-div-sepid-performance.jpg)
 
 ### Belligerent
 
-![Belligerent performance](assets/05-belligerent-performance.jpg)
+![Belligerent performance](05-belligerent-performance.jpg)
 
 ---
 
@@ -136,7 +136,7 @@ These performances formed part of the physical artefact study, exploring how con
 
 The images above document selected physical performances developed during the artefact study.
 
-The documentation records the interaction between performers, ceramic artefacts, and their surrounding environments.
+The documentation records the interaction between the performers, ceramic artefacts, and their surrounding environments.
 
 Video documentation of the physical performances will be added to this repository as the documentation develops.
 
@@ -285,13 +285,11 @@ Further research materials will be added as the project develops.
 ```text
 Chess-with-Ferdowsi/
 │
-├── assets/
-│   ├── chess-with-ferdowsi-header.png
-│   ├── 01-greed-performance.jpg
-│   ├── 02-love-performance.jpg
-│   ├── 03-deception-performance.jpg
-│   ├── 04-div-sepid-performance.jpg
-│   └── 05-belligerent-performance.jpg
+├── 01-greed-performance.jpg
+├── 02-love-performance.jpg
+├── 03-deception-performance.jpg
+├── 04-div-sepid-performance.jpg
+├── 05-belligerent-performance.jpg
 │
 ├── research/
 │   ├── context/
@@ -303,7 +301,8 @@ Chess-with-Ferdowsi/
 ├── prototype/
 │   └── XR/
 │
-└── README.md
+├── README.md
+└── index.html
 ```
 
 Additional documentation and prototype materials will be added as the research develops.
