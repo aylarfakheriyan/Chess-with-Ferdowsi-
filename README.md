@@ -1,5 +1,7 @@
 # Chess with Ferdowsi — Embodied Interaction through Artefacts
 
+![Chess with Ferdowsi — Embodied Interaction through Artefacts by Aylar Fakherian](chess-with-ferdowsi-header-by-aylar-fakherian.png)
+
 ### An Ongoing Research through Design Investigation
 
 **Chess with Ferdowsi** is an ongoing Research through Design investigation into how physical and virtual artefacts shape embodied interaction with cultural narratives.
