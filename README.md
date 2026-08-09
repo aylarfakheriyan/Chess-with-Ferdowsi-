@@ -1,13 +1,8 @@
 # Chess with Ferdowsi — Embodied Interaction through Artefacts
 
-<p align="center">
-  <img src="assets/chess-with-ferdowsi-header.png" alt="Chess with Ferdowsi — Embodied Interaction through Artefacts" width="100%">
-</p>
-
 ### An Ongoing Research through Design Investigation
 
 **Chess with Ferdowsi** is an ongoing Research through Design investigation into how physical and virtual artefacts shape embodied interaction with cultural narratives.
-
 
 ## Live Project Page
 
@@ -113,25 +108,37 @@ The resulting performance was therefore treated as observed data rather than as 
 
 The physical artefacts were developed around different conceptual qualities and cultural interpretations.
 
-<table>
-<tr>
-<td align="center"><img src="assets/01-greed-performance.jpg" width="100%"><br><sub><b>Greed</b></sub></td>
-<td align="center"><img src="assets/02-love-performance.jpg" width="100%"><br><sub><b>love</b></sub></td>
-<td align="center"><img src="assets/03-deception-performance.jpg" width="100%"><br><sub><b>deception</b></sub></td>
-<td align="center"><img src="assets/04-div-sepid-performance.jpg" width="100%"><br><sub><b>div-sepid</b></sub></td>
-<td align="center"><img src="assets/05-belligerent-performance.jpg" width="100%"><br><sub><b>belligerent</b></sub></td>
-</tr>
-</table>
-
 These performances formed part of the physical artefact study, exploring how conceptual qualities could be embodied through the interaction between performer, artefact, and environment.
+
+### Greed
+
+![Greed performance](assets/01-greed-performance.jpg)
+
+### Love
+
+![Love performance](assets/02-love-performance.jpg)
+
+### Deception
+
+![Deception performance](assets/03-deception-performance.jpg)
+
+### Div-e Sepid
+
+![Div-e Sepid performance](assets/04-div-sepid-performance.jpg)
+
+### Belligerent
+
+![Belligerent performance](assets/05-belligerent-performance.jpg)
 
 ---
 
 ## Performance Documentation
 
-Video documentation of the physical performances will be added to this repository.
+The images above document selected physical performances developed during the artefact study.
 
-The documentation records the interaction between the performers and the ceramic artefacts across different performance conditions.
+The documentation records the interaction between performers, ceramic artefacts, and their surrounding environments.
+
+Video documentation of the physical performances will be added to this repository as the documentation develops.
 
 ### GIF Documentation
 
@@ -145,9 +152,9 @@ The physical study was not limited to a single performance setting.
 
 Performances were explored across different environments, including:
 
-**Qadamgah Historical Site**
-**Tabriz Bazaar**
-**Studio**
+* **Qadamgah Historical Site**
+* **Tabriz Bazaar**
+* **Studio**
 
 The environment was treated as part of the wider system surrounding the artefact and performer.
 
@@ -281,10 +288,10 @@ Chess-with-Ferdowsi/
 ├── assets/
 │   ├── chess-with-ferdowsi-header.png
 │   ├── 01-greed-performance.jpg
-│   ├── 02-jealousy-performance.jpg
-│   ├── 03-warmongering-performance.jpg
-│   ├── 04-white-demon-performance.jpg
-│   └── 05-deception-performance.jpg
+│   ├── 02-love-performance.jpg
+│   ├── 03-deception-performance.jpg
+│   ├── 04-div-sepid-performance.jpg
+│   └── 05-belligerent-performance.jpg
 │
 ├── research/
 │   ├── context/
@@ -316,7 +323,7 @@ The findings will inform the next stage of the wider Research through Design pro
 ## Related Work
 
 **Behance:**
-Chess with Ferdowsi — Embodied Interaction through Artefacts
+*Chess with Ferdowsi — Embodied Interaction through Artefacts*
 
 The Behance case study documents the visual and narrative development of the project, while this repository provides the underlying research documentation and ongoing technical materials.
 
