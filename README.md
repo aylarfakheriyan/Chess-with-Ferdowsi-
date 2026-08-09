@@ -110,25 +110,17 @@ The physical artefacts were developed around different conceptual qualities and 
 
 These performances formed part of the physical artefact study, exploring how conceptual qualities could be embodied through the interaction between performer, artefact, and environment.
 
-### Greed
+<div align="center">
 
-![Greed performance](01-greed-performance.jpg)
+<img src="01-greed-performance.jpg" width="19%" alt="Greed performance">
+<img src="02-love-performance.jpg" width="19%" alt="Love performance">
+<img src="03-deception-performance.jpg" width="19%" alt="Deception performance">
+<img src="04-div-sepid-performance.jpg" width="19%" alt="Div-e Sepid performance">
+<img src="05-belligerent-performance.jpg" width="19%" alt="Belligerent performance">
 
-### Love
+</div>
 
-![Love performance](02-love-performance.jpg)
-
-### Deception
-
-![Deception performance](03-deception-performance.jpg)
-
-### Div-e Sepid
-
-![Div-e Sepid performance](04-div-sepid-performance.jpg)
-
-### Belligerent
-
-![Belligerent performance](05-belligerent-performance.jpg)
+*Selected physical performance studies developed through the ceramic artefact investigation.*
 
 ---
 
