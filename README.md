@@ -112,11 +112,11 @@ These performances formed part of the physical artefact study, exploring how con
 
 <div align="center">
 
-<img src="01-greed-performance.jpg" width="19%" alt="Greed performance">
-<img src="02-love-performance.jpg" width="19%" alt="Love performance">
-<img src="03-deception-performance.jpg" width="19%" alt="Deception performance">
-<img src="04-div-sepid-performance.jpg" width="19%" alt="Div-e Sepid performance">
-<img src="05-belligerent-performance.jpg" width="19%" alt="Belligerent performance">
+<img src="01-greed-performance-chess-with-ferdowsi-aylar-fakherian.jpg" width="19%" alt="Greed — ceramic performance mask, Chess with Ferdowsi by Aylar Fakherian">
+<img src="02-love-performance-chess-with-ferdowsi-aylar-fakherian.jpg" width="19%" alt="Love — ceramic performance mask, Chess with Ferdowsi by Aylar Fakherian">
+<img src="03-deception-performance-chess-with-ferdowsi-aylar-fakherian.jpg" width="19%" alt="Deception — ceramic performance mask, Chess with Ferdowsi by Aylar Fakherian">
+<img src="04-div-sepid-performance-chess-with-ferdowsi-aylar-fakherian.jpg" width="19%" alt="Div-e Sepid — ceramic performance mask, Chess with Ferdowsi by Aylar Fakherian">
+<img src="05-belligerent-performance-chess-with-ferdowsi-aylar-fakherian.jpg" width="19%" alt="Belligerent — ceramic performance mask, Chess with Ferdowsi by Aylar Fakherian">
 
 </div>
 
@@ -277,11 +277,13 @@ Further research materials will be added as the project develops.
 ```text
 Chess-with-Ferdowsi/
 │
-├── 01-greed-performance.jpg
-├── 02-love-performance.jpg
-├── 03-deception-performance.jpg
-├── 04-div-sepid-performance.jpg
-├── 05-belligerent-performance.jpg
+├── chess-with-ferdowsi-header-by-aylar-fakherian.png
+│
+├── 01-greed-performance-chess-with-ferdowsi-aylar-fakherian.jpg
+├── 02-love-performance-chess-with-ferdowsi-aylar-fakherian.jpg
+├── 03-deception-performance-chess-with-ferdowsi-aylar-fakherian.jpg
+├── 04-div-sepid-performance-chess-with-ferdowsi-aylar-fakherian.jpg
+├── 05-belligerent-performance-chess-with-ferdowsi-aylar-fakherian.jpg
 │
 ├── research/
 │   ├── context/
@@ -331,3 +333,6 @@ The Behance case study documents the visual and narrative development of the pro
 © Aylar Fakherian. All rights reserved.
 
 This repository is provided for research documentation and reference. Please contact the author before reusing project materials, artefacts, images, or documentation.
+
+```
+```
