@@ -1,143 +1,632 @@
 ```html
-<meta
-  name="description"
-  content="Chess with Ferdowsi is an ongoing Research through Design project by Aylar Fakherian investigating how physical and virtual artefacts shape embodied interaction with cultural narratives through ceramic performance masks and immersive XR."
->
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-<meta
-  name="keywords"
-  content="Aylar Fakherian, Chess with Ferdowsi, Research through Design, RtD, Embodied Interaction, Human-Centred Design, Digital Cultural Heritage, Intangible Cultural Heritage, Ceramic Masks, XR, Virtual Reality, Shahnameh, Ferdowsi"
->
+  <meta charset="UTF-8">
 
-<img
-  src="01-greed-performance.jpg"
-  alt="Greed — ceramic performance mask, Chess with Ferdowsi by Aylar Fakherian"
->
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-<img
-  src="02-love-performance.jpg"
-  alt="Love — ceramic performance mask, Chess with Ferdowsi by Aylar Fakherian"
->
+  <title>
+    Chess with Ferdowsi — Embodied Interaction through Artefacts
+  </title>
 
-<img
-  src="03-deception-performance.jpg"
-  alt="Deception — ceramic performance mask, Chess with Ferdowsi by Aylar Fakherian"
->
+  <meta
+    name="description"
+    content="Chess with Ferdowsi is an ongoing Research through Design project by Aylar Fakherian investigating how physical and virtual artefacts shape embodied interaction with cultural narratives through ceramic performance masks and immersive XR."
+  >
 
-<img
-  src="04-div-sepid-performance.jpg"
-  alt="Div-e Sepid — ceramic performance mask, Chess with Ferdowsi by Aylar Fakherian"
->
+  <meta
+    name="keywords"
+    content="Aylar Fakherian, Chess with Ferdowsi, Research through Design, RtD, Embodied Interaction, Human-Centred Design, Digital Cultural Heritage, Intangible Cultural Heritage, Ceramic Masks, XR, Virtual Reality, Shahnameh, Ferdowsi"
+  >
 
-<img
-  src="05-belligerent-performance.jpg"
-  alt="Belligerent — ceramic performance mask, Chess with Ferdowsi by Aylar Fakherian"
->
+  <meta name="author" content="Aylar Fakherian">
 
-<img
-  src="chess-with-ferdowsi-header.png"
-  alt="Chess with Ferdowsi — Embodied Interaction through Artefacts by Aylar Fakherian"
->
+  <style>
 
-<h1>
-  Chess with Ferdowsi — Embodied Interaction through Artefacts
-</h1>
+    * {
+      box-sizing: border-box;
+    }
 
-<p class="subtitle">
-  An ongoing Research through Design investigation by Aylar Fakherian.
-</p>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #111111;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
 
-<p>
-  <strong>Chess with Ferdowsi</strong> investigates how physical and virtual
-  artefacts shape embodied interaction with cultural narratives through
-  ceramic performance masks and immersive XR.
-</p>
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 60px 40px 80px;
+    }
 
-<h2>Research Question</h2>
+    header {
+      margin-bottom: 50px;
+    }
 
-<p>
-  <strong>
-    How can an artefact reshape embodied interpretation, behaviour,
-    and experience?
-  </strong>
-</p>
+    header img {
+      display: block;
+      width: 100%;
+      max-height: 480px;
+      object-fit: cover;
+      margin-bottom: 35px;
+    }
 
-<h2>Research Context</h2>
+    h1 {
+      font-size: 42px;
+      line-height: 1.15;
+      margin: 0 0 12px;
+      font-weight: 700;
+    }
 
-<p>
-  The project uses the <em>Shahnameh</em> as design material rather than
-  subject matter. Rather than directly reproducing the mythical creatures
-  described in the text, the project explores how cultural narratives can
-  be translated into artefacts that are experienced through embodied
-  interaction.
-</p>
+    .subtitle {
+      font-size: 20px;
+      color: #666666;
+      margin-bottom: 30px;
+    }
 
-<p>
-  The research began with conceptual interpretations of the Divs in the
-  <em>Shahnameh</em>, exploring human conditions and qualities such as
-  greed, love, deception, conflict, and belligerence, alongside the
-  figure of Div-e Sepid.
-</p>
+    h2 {
+      margin-top: 55px;
+      margin-bottom: 18px;
+      font-size: 28px;
+      line-height: 1.25;
+    }
 
-<h2>Research through Design</h2>
+    p {
+      font-size: 17px;
+      margin: 0 0 20px;
+    }
 
-<p>
-  The first study developed ceramic performance masks as physical research
-  artefacts. Their weight, texture, fragility, and physical resistance
-  introduced new conditions for performers during embodied performance.
-</p>
+    strong {
+      font-weight: 700;
+    }
 
-<p>
-  The project then raised a further question:
-  <strong>What happens when the material disappears?</strong>
-</p>
+    em {
+      font-style: italic;
+    }
 
-<p>
-  An immersive XR study is currently being developed to explore how the
-  artefacts operate when physical materiality is replaced by virtual
-  configuration.
-</p>
+    .research-question {
+      border-left: 4px solid #111111;
+      padding: 18px 24px;
+      margin: 25px 0 35px;
+      font-size: 21px;
+    }
 
-<h2>Research Focus</h2>
+    .performance-gallery {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      align-items: flex-start;
+      margin: 40px 0 25px;
+    }
 
-<p>
-  Research through Design · Practice-based Research · Embodied Interaction ·
-  Human-Centred Design · Intangible Cultural Heritage · Digital Cultural
-  Heritage · XR · Physical–Virtual Artefact Comparison
-</p>
+    .performance-gallery img {
+      display: block;
+      width: calc((100% - 48px) / 5);
+      height: 220px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
 
-<h2>Project Status</h2>
+    .caption {
+      text-align: center;
+      color: #666666;
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
 
-<p>
-  The physical artefact study has been completed.
-  The virtual artefact study is currently under development.
-  Comparative evaluation of the physical and virtual configurations will
-  be added as the research progresses.
-</p>
+    .focus {
+      font-size: 16px;
+      line-height: 1.8;
+    }
 
-<h2>About the Researcher</h2>
+    .links {
+      margin-top: 30px;
+      padding-top: 10px;
+    }
 
-<p>
-  <strong>Aylar Fakherian</strong> is a Human-Centred Design researcher
-  working across Research through Design, interactive systems, immersive
-  experiences, and digital cultural heritage.
-</p>
+    .links a {
+      color: #111111;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
 
-<div class="links">
+    .links a:hover {
+      opacity: 0.6;
+    }
 
-  <h2>Research Repository</h2>
+    footer {
+      margin-top: 70px;
+      padding-top: 25px;
+      border-top: 1px solid #dddddd;
+      color: #777777;
+      font-size: 14px;
+    }
 
-  <p>
-    <a href="https://github.com/aylarfakheriyan/Chess-with-Ferdowsi-">
-      GitHub — Chess with Ferdowsi
-    </a>
-  </p>
+    @media (max-width: 800px) {
 
-  <p>
-    <a href="https://www.behance.net/gallery/253451165/Chess-with-Ferdowsi">
-      Behance — Chess with Ferdowsi
-    </a>
-  </p>
+      main {
+        padding: 40px 24px 60px;
+      }
 
-</div>
+      h1 {
+        font-size: 34px;
+      }
+
+      .subtitle {
+        font-size: 18px;
+      }
+
+      .performance-gallery {
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .performance-gallery img {
+        width: calc((100% - 20px) / 3);
+        height: 190px;
+      }
+
+    }
+
+    @media (max-width: 520px) {
+
+      main {
+        padding: 30px 18px 50px;
+      }
+
+      header img {
+        max-height: 300px;
+      }
+
+      h1 {
+        font-size: 29px;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-top: 42px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .performance-gallery img {
+        width: calc((100% - 10px) / 2);
+        height: 180px;
+      }
+
+      .research-question {
+        font-size: 18px;
+        padding: 15px 18px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <main>
+
+    <header>
+
+      <img
+        src="chess-with-ferdowsi-header.png"
+        alt="Chess with Ferdowsi — Embodied Interaction through Artefacts by Aylar Fakherian"
+      >
+
+      <h1>
+        Chess with Ferdowsi — Embodied Interaction through Artefacts
+      </h1>
+
+      <p class="subtitle">
+        An ongoing Research through Design investigation by Aylar Fakherian.
+      </p>
+
+      <p>
+        <strong>Chess with Ferdowsi</strong> investigates how physical and
+        virtual artefacts shape embodied interaction with cultural narratives
+        through ceramic performance masks and immersive XR.
+      </p>
+
+    </header>
+
+
+    <section>
+
+      <h2>Research Question</h2>
+
+      <div class="research-question">
+        <strong>
+          How can an artefact reshape embodied interpretation, behaviour,
+          and experience?
+        </strong>
+      </div>
+
+    </section>
+
+
+    <section>
+
+      <h2>Research Context</h2>
+
+      <p>
+        The project uses the <em>Shahnameh</em> as design material rather than
+        subject matter. Rather than directly reproducing the mythical
+        creatures described in the text, the project explores how cultural
+        narratives can be translated into artefacts that are experienced
+        through embodied interaction.
+      </p>
+
+      <p>
+        The research began with conceptual interpretations of the Divs in the
+        <em>Shahnameh</em>, exploring human conditions and qualities such as
+        greed, love, deception, conflict, and belligerence, alongside the
+        figure of Div-e Sepid.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>Research through Design</h2>
+
+      <p>
+        The first study developed ceramic performance masks as physical
+        research artefacts. Their weight, texture, fragility, and physical
+        resistance introduced new conditions for performers during embodied
+        performance.
+      </p>
+
+      <p>
+        The project then raised a further question:
+        <strong>What happens when the material disappears?</strong>
+      </p>
+
+      <p>
+        An immersive XR study is currently being developed to explore how the
+        artefacts operate when physical materiality is replaced by virtual
+        configuration.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>Performance Studies</h2>
+
+      <p>
+        The physical artefacts were developed around different conceptual
+        qualities and cultural interpretations. These performances form part
+        of the physical artefact study, exploring how conceptual qualities
+        can be embodied through the interaction between performer, artefact,
+        and environment.
+      </p>
+
+      <div class="performance-gallery">
+
+        <img
+          src="01-greed-performance.jpg"
+          alt="Greed — ceramic performance mask, Chess with Ferdowsi by Aylar Fakherian"
+        >
+
+        <img
+          src="02-love-performance.jpg"
+          alt="Love — ceramic performance mask, Chess with Ferdowsi by Aylar Fakherian"
+        >
+
+        <img
+          src="03-deception-performance.jpg"
+          alt="Deception — ceramic performance mask, Chess with Ferdowsi by Aylar Fakherian"
+        >
+
+        <img
+          src="04-div-sepid-performance.jpg"
+          alt="Div-e Sepid — ceramic performance mask, Chess with Ferdowsi by Aylar Fakherian"
+        >
+
+        <img
+          src="05-belligerent-performance.jpg"
+          alt="Belligerent — ceramic performance mask, Chess with Ferdowsi by Aylar Fakherian"
+        >
+
+      </div>
+
+      <p class="caption">
+        Selected physical performance studies developed through the ceramic
+        artefact investigation.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>Research Focus</h2>
+
+      <p class="focus">
+        Research through Design · Practice-based Research · Embodied Interaction
+        · Human-Centred Design · Intangible Cultural Heritage · Digital
+        Cultural Heritage · XR · Physical–Virtual Artefact Comparison
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>The Environment as a Variable</h2>
+
+      <p>
+        The physical study was not limited to a single performance setting.
+        Performances were explored across different environments, including
+        the Qadamgah Historical Site, Tabriz Bazaar, and studio settings.
+      </p>
+
+      <p>
+        The environment was treated as part of the wider system surrounding
+        the artefact and performer. This allowed the physical study to
+        consider how embodied interaction may emerge not only from the
+        artefact itself, but also from the conditions in which it is
+        encountered.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>From Physical to Virtual</h2>
+
+      <p>
+        The ceramic study raised a further question:
+        <strong>What happens when the material disappears?</strong>
+      </p>
+
+      <p>
+        If weight, texture, fragility, and physical resistance contribute to
+        the conditions of performance, what happens when those material
+        qualities are removed or transformed?
+      </p>
+
+      <p>
+        To explore this question, the artefacts are being recreated digitally
+        and introduced into an immersive XR environment.
+      </p>
+
+      <p>
+        The intention is not to change the cultural narrative or character,
+        but to change the configuration of the artefact itself. The physical
+        configuration becomes virtual while the research question remains
+        comparable.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>XR Artefact Study — Ongoing</h2>
+
+      <p>
+        The virtual configuration is currently under development.
+      </p>
+
+      <p>
+        The XR study is designed to investigate how the same conceptual
+        artefacts operate when physical materiality is replaced by virtual
+        embodiment.
+      </p>
+
+      <p>
+        The development uses Blender, Unity, OpenXR, and XR Interaction
+        Toolkit.
+      </p>
+
+      <p>
+        The final comparative evaluation will be added after the XR
+        performance study is completed.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>Comparative Framework</h2>
+
+      <p>
+        The project explores two configurations of the artefact:
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Physical Configuration</th>
+            <th>Virtual Configuration</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Ceramic</td>
+            <td>XR</td>
+          </tr>
+
+          <tr>
+            <td>Physical weight</td>
+            <td>Virtual presence</td>
+          </tr>
+
+          <tr>
+            <td>Physical texture</td>
+            <td>Perceptual representation</td>
+          </tr>
+
+          <tr>
+            <td>Fragility</td>
+            <td>Digital condition</td>
+          </tr>
+
+          <tr>
+            <td>Physical resistance</td>
+            <td>Virtual interaction</td>
+          </tr>
+
+          <tr>
+            <td>Embodied interaction</td>
+            <td>Embodied interaction</td>
+          </tr>
+
+          <tr>
+            <td>Cultural interpretation</td>
+            <td>Cultural interpretation</td>
+          </tr>
+        </tbody>
+
+      </table>
+
+      <p>
+        The purpose of the comparison is not to determine which medium is
+        better. Instead, the study asks how changing the conditions of an
+        artefact may influence embodied interaction, interpretation, and
+        experience.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>Research Approach</h2>
+
+      <p>
+        The project combines Research through Design (RtD), Practice-based
+        Research, cultural narrative analysis, artefact design, embodied
+        performance, physical prototyping, XR prototyping, and comparative
+        investigation.
+      </p>
+
+      <p>
+        The artefacts function as research artefacts through which questions
+        about materiality, embodiment, interpretation, and interaction can be
+        explored.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>Research Contribution</h2>
+
+      <p>
+        This project investigates how artefacts can mediate between cultural
+        narratives and embodied experience.
+      </p>
+
+      <p>
+        Rather than treating cultural heritage simply as content to be
+        represented, the research explores how cultural material can become
+        part of a designed encounter in which interpretation emerges through
+        interaction.
+      </p>
+
+      <p>
+        The investigation contributes to ongoing research in Research through
+        Design, Practice-based Research, Embodied Interaction, Materiality
+        and Artefact Mediation, Human-Centred Design, Intangible Cultural
+        Heritage, Digital Cultural Heritage, and Physical–Virtual Comparative
+        Research.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>Project Status</h2>
+
+      <p>
+        The physical artefact study has been completed.
+        The virtual artefact study is currently under development.
+        Comparative evaluation of the physical and virtual configurations
+        will be added as the research progresses.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>About the Researcher</h2>
+
+      <p>
+        <strong>Aylar Fakherian</strong> is a Human-Centred Design researcher
+        working across Research through Design, interactive systems, immersive
+        experiences, and digital cultural heritage.
+      </p>
+
+    </section>
+
+
+    <section class="links">
+
+      <h2>Research Repository</h2>
+
+      <p>
+        <a
+          href="https://github.com/aylarfakheriyan/Chess-with-Ferdowsi-"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub — Chess with Ferdowsi
+        </a>
+      </p>
+
+      <p>
+        <a
+          href="https://www.behance.net/gallery/253451165/Chess-with-Ferdowsi"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Behance — Chess with Ferdowsi
+        </a>
+      </p>
+
+    </section>
+
+
+    <footer>
+
+      <p>
+        <strong>Citation:</strong>
+        Fakherian, Aylar. <em>Chess with Ferdowsi: Embodied Interaction
+        through Artefacts.</em> Ongoing Research through Design project,
+        2025–Present.
+      </p>
+
+      <p>
+        © Aylar Fakherian. All rights reserved.
+      </p>
+
+    </footer>
+
+  </main>
+
+</body>
+</html>
 ```
