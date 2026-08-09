@@ -116,10 +116,10 @@ The physical artefacts were developed around different conceptual qualities and 
 <table>
 <tr>
 <td align="center"><img src="assets/01-greed-performance.jpg" width="100%"><br><sub><b>Greed</b></sub></td>
-<td align="center"><img src="assets/02-love-performance.jpg" width="100%"><br><sub><b>Jealousy</b></sub></td>
-<td align="center"><img src="assets/03-deception-performance.jpg" width="100%"><br><sub><b>Warmongering</b></sub></td>
-<td align="center"><img src="assets/04-div-sepid-performance.jpg" width="100%"><br><sub><b>The White Demon</b></sub></td>
-<td align="center"><img src="assets/05-belligerent-performance.jpg" width="100%"><br><sub><b>Deception</b></sub></td>
+<td align="center"><img src="assets/02-love-performance.jpg" width="100%"><br><sub><b>love</b></sub></td>
+<td align="center"><img src="assets/03-deception-performance.jpg" width="100%"><br><sub><b>deception</b></sub></td>
+<td align="center"><img src="assets/04-div-sepid-performance.jpg" width="100%"><br><sub><b>div-sepid</b></sub></td>
+<td align="center"><img src="assets/05-belligerent-performance.jpg" width="100%"><br><sub><b>belligerent</b></sub></td>
 </tr>
 </table>
 
