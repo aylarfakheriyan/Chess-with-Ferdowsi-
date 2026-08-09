@@ -8,6 +8,12 @@
 
 **Chess with Ferdowsi** is an ongoing Research through Design investigation into how physical and virtual artefacts shape embodied interaction with cultural narratives.
 
+## Live Project Page
+
+https://aylarfakheriyan.github.io/Chess-with-Ferdowsi-/
+
+---
+
 The project uses the *Shahnameh* as design material rather than subject matter, developing ceramic performance artefacts and an immersive XR study to investigate how materiality, embodiment, performance, and interpretation change across physical and virtual configurations.
 
 ---
