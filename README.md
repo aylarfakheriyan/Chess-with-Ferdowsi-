@@ -8,6 +8,8 @@
 
 **Chess with Ferdowsi** is an ongoing Research through Design investigation into how physical and virtual artefacts shape embodied interaction with cultural narratives.
 
+---
+
 ## Live Project Page
 
 https://aylarfakheriyan.github.io/Chess-with-Ferdowsi-/
