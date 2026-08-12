@@ -1,12 +1,13 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <meta charset="UTF-8">
-  
-<meta name="google-site-verification" content="g14jzEKq8l_ZRjvf_O7y236-1r0MkT2d7XwhH6N3zEQ" />
-  
+
+  <meta name="google-site-verification"
+    content="g14jzEKq8l_ZRjvf_O7y236-1r0MkT2d7XwhH6N3zEQ" />
+
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1.0"
@@ -28,6 +29,7 @@
 
   <meta name="author" content="Aylar Fakherian">
 
+
   <style>
 
     * {
@@ -47,11 +49,76 @@
       line-height: 1.7;
     }
 
+
+    /* =========================
+       TOP NAVIGATION
+       ========================= */
+
+    .top-nav {
+      width: 100%;
+      border-bottom: 1px solid #1f1f1f;
+      background: #000000;
+    }
+
+    .nav-inner {
+      width: min(1100px, 92%);
+      margin: 0 auto;
+      min-height: 72px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 30px;
+    }
+
+    .brand {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      white-space: nowrap;
+    }
+
+    .brand:hover {
+      color: #0B4CC4;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .nav-links a {
+      color: #aaaaaa;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .nav-links a:hover {
+      color: #0B4CC4;
+    }
+
+
+    /* =========================
+       MAIN
+       ========================= */
+
     main {
       max-width: 1100px;
       margin: 0 auto;
       padding: 60px 40px 80px;
     }
+
+
+    /* =========================
+       HEADER
+       ========================= */
 
     header {
       margin-bottom: 55px;
@@ -79,6 +146,11 @@
       margin-bottom: 30px;
     }
 
+
+    /* =========================
+       TYPOGRAPHY
+       ========================= */
+
     h2 {
       margin-top: 60px;
       margin-bottom: 20px;
@@ -102,13 +174,23 @@
       color: #ffffff;
     }
 
+
+    /* =========================
+       RESEARCH QUESTION
+       ========================= */
+
     .research-question {
-      border-left: 3px solid #ffffff;
+      border-left: 3px solid #0B4CC4;
       padding: 18px 24px;
       margin: 25px 0 35px;
       font-size: 21px;
       color: #ffffff;
     }
+
+
+    /* =========================
+       PERFORMANCE GALLERY
+       ========================= */
 
     .performance-gallery {
       display: flex;
@@ -135,11 +217,21 @@
       margin-bottom: 45px;
     }
 
+
+    /* =========================
+       RESEARCH FOCUS
+       ========================= */
+
     .focus {
       font-size: 16px;
       line-height: 1.8;
       color: #cccccc;
     }
+
+
+    /* =========================
+       TABLE
+       ========================= */
 
     table {
       width: 100%;
@@ -165,20 +257,30 @@
       background: #050505;
     }
 
+
+    /* =========================
+       LINKS
+       ========================= */
+
     .links {
       margin-top: 30px;
       padding-top: 10px;
     }
 
     .links a {
-      color: #ffffff;
-      text-decoration: underline;
-      text-underline-offset: 4px;
+      color: #0B4CC4;
+      text-decoration: none;
+      transition: color 0.2s ease;
     }
 
     .links a:hover {
-      color: #aaaaaa;
+      color: #ffffff;
     }
+
+
+    /* =========================
+       FOOTER
+       ========================= */
 
     footer {
       margin-top: 75px;
@@ -193,7 +295,25 @@
       font-size: 14px;
     }
 
+
+    /* =========================
+       TABLET
+       ========================= */
+
     @media (max-width: 800px) {
+
+      .nav-inner {
+        width: 90%;
+        min-height: 65px;
+      }
+
+      .nav-links {
+        gap: 18px;
+      }
+
+      .nav-links a {
+        font-size: 13px;
+      }
 
       main {
         padding: 40px 25px 60px;
@@ -219,7 +339,30 @@
 
     }
 
+
+    /* =========================
+       MOBILE
+       ========================= */
+
     @media (max-width: 520px) {
+
+      .nav-inner {
+        min-height: 62px;
+        gap: 15px;
+      }
+
+      .brand {
+        font-size: 13px;
+        letter-spacing: 0.05em;
+      }
+
+      .nav-links {
+        gap: 14px;
+      }
+
+      .nav-links a {
+        font-size: 12px;
+      }
 
       main {
         padding: 30px 16px 50px;
@@ -271,9 +414,64 @@
 
 </head>
 
+
 <body>
 
+
+  <!-- =========================
+       TOP NAVIGATION
+       ========================= -->
+
+  <nav class="top-nav">
+
+    <div class="nav-inner">
+
+      <a
+        class="brand"
+        href="#"
+      >
+        CHESS WITH FERDOWSI
+      </a>
+
+      <div class="nav-links">
+
+        <a
+          href="https://www.behance.net/gallery/253451165/Chess-with-Ferdowsi"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Visuals
+        </a>
+
+        <a
+          href="https://github.com/aylarfakheriyan/Chess-with-Ferdowsi-"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Research
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/aylarfakherian/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          About
+        </a>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
   <main>
+
+
+    <!-- =========================
+         HEADER
+         ========================= -->
 
     <header>
 
@@ -299,19 +497,25 @@
     </header>
 
 
+    <!-- Research Question -->
+
     <section>
 
       <h2>Research Question</h2>
 
       <div class="research-question">
+
         <strong>
           How can an artefact reshape embodied interpretation, behaviour,
           and experience?
         </strong>
+
       </div>
 
     </section>
 
+
+    <!-- Research Context -->
 
     <section>
 
@@ -334,6 +538,8 @@
 
     </section>
 
+
+    <!-- Research through Design -->
 
     <section>
 
@@ -359,6 +565,8 @@
 
     </section>
 
+
+    <!-- Performance Studies -->
 
     <section>
 
@@ -409,6 +617,8 @@
     </section>
 
 
+    <!-- Research Focus -->
+
     <section>
 
       <h2>Research Focus</h2>
@@ -421,6 +631,8 @@
 
     </section>
 
+
+    <!-- Environment -->
 
     <section>
 
@@ -442,6 +654,8 @@
 
     </section>
 
+
+    <!-- From Physical to Virtual -->
 
     <section>
 
@@ -473,6 +687,8 @@
     </section>
 
 
+    <!-- XR Artefact Study -->
+
     <section>
 
       <h2>XR Artefact Study — Ongoing</h2>
@@ -500,6 +716,8 @@
     </section>
 
 
+    <!-- Comparative Framework -->
+
     <section>
 
       <h2>Comparative Framework</h2>
@@ -511,10 +729,12 @@
       <table>
 
         <thead>
+
           <tr>
             <th>Physical Configuration</th>
             <th>Virtual Configuration</th>
           </tr>
+
         </thead>
 
         <tbody>
@@ -568,6 +788,8 @@
     </section>
 
 
+    <!-- Research Approach -->
+
     <section>
 
       <h2>Research Approach</h2>
@@ -587,6 +809,8 @@
 
     </section>
 
+
+    <!-- Research Contribution -->
 
     <section>
 
@@ -615,6 +839,8 @@
     </section>
 
 
+    <!-- Project Status -->
+
     <section>
 
       <h2>Project Status</h2>
@@ -629,6 +855,8 @@
     </section>
 
 
+    <!-- Researcher -->
+
     <section>
 
       <h2>About the Researcher</h2>
@@ -641,6 +869,8 @@
 
     </section>
 
+
+    <!-- Research Repository -->
 
     <section class="links">
 
@@ -669,6 +899,8 @@
     </section>
 
 
+    <!-- Footer -->
+
     <footer>
 
       <p>
@@ -684,8 +916,9 @@
 
     </footer>
 
+
   </main>
 
 </body>
+
 </html>
-```
